@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    /* Stack elements vertically */
+    justify-content: center;
+    /* Vertical centering */
+    align-items: center;
+    /* Horizontal centering */
+    height: 100vh;
+    /* Full viewport height */
+    background-color: #f0f0f0;
+    /* Optional: light background color */
+    /* text-align: center; */
+    /* Center the text in h1 */
+}
+
+/* Ensure the form is centered below the h1 */
+form {
+    margin-top: 20px;
+    /* Space between h1 and form */
+    background-color: white;
+    /* Background color for the form */
+    padding: 20px;
+    /* Padding around the form */
+    border-radius: 10px;
+    /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Optional: subtle shadow */
+}
